@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "J7xbS62kITEkRRD5qWc9A1A7x7g=",
+			"path": "github.com/pebbe/zmq4",
+			"revision": "7a493a642e7acbd03045d4f5fe9516908a62f86f",
+			"revisionTime": "2019-01-13T09:08:35Z"
+		},
+		{
+			"checksumSHA1": "Mz/d5NqpD7z93phQUTDQb2K7uZg=",
+			"path": "github.com/rs/zerolog",
+			"revision": "299ff038c1fb98b0d127137bc6a7a869b9f4ced5",
+			"revisionTime": "2019-02-20T19:39:29Z"
+		},
+		{
+			"checksumSHA1": "73NzoKIiJU6h4v6hg9eM4t7V/zw=",
+			"path": "github.com/rs/zerolog/internal/cbor",
+			"revision": "299ff038c1fb98b0d127137bc6a7a869b9f4ced5",
+			"revisionTime": "2019-02-20T19:39:29Z"
+		},
+		{
+			"checksumSHA1": "e0b96rsdqg3fNtCDQOdZA4M+MNo=",
+			"path": "github.com/rs/zerolog/internal/json",
+			"revision": "299ff038c1fb98b0d127137bc6a7a869b9f4ced5",
+			"revisionTime": "2019-02-20T19:39:29Z"
+		},
+		{
+			"checksumSHA1": "GrCvxT3h3vAVIwGe8bFAilXjgVA=",
+			"path": "github.com/rs/zerolog/log",
+			"revision": "299ff038c1fb98b0d127137bc6a7a869b9f4ced5",
+			"revisionTime": "2019-02-20T19:39:29Z"
+		}
+	],
+	"rootPath": "fin-receiver"
+}
