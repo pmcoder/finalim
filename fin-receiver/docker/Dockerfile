@@ -1,5 +1,7 @@
 FROM scratch
 
-COPY bin/fin-receiver
+COPY fin-receiver fin-receiver
+
+EXPOSE 5555
 
 ENTRYPOINT ["/fin-receiver"]

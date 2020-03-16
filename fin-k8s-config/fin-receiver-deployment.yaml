@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: fin-receiver-deployment
+    labels:
+        app: fin-receiver
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: fin-receiver
+    template:
+        metadata:
+            labels:
+                app: fin-receiver
+        spec:
+            containers:
+                - name: fin-receiver
+                  image: fin-receiver:latest
+                  ports:
+                      - containerPort: 5555
